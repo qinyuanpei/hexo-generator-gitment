@@ -1,0 +1,15 @@
+{
+  "name": "hexo-generator-gitment",
+  "version": "1.0.0",
+  "description": "a hexo generator plugin for gitment",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Hexo",
+    "generator�",
+    "plugin"
+  ],
+  "author": "PayneQin",
+  "license": "MIT"
+}
