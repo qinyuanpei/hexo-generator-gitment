@@ -7,8 +7,8 @@ var fs = require('../hexo-fs');
 hexo.extend.filter.register('before_post_render',function(data){
     issueId = loadIssueId(data);
     if(issueId != 'undefined') return data
-    data = initIssues(data)
-    console.log(data.issueId)
+    var config = hexo.config.issues
+    data = initIssues(data,config)
     return data
 });
 
@@ -28,6 +28,6 @@ function loadIssueId(data) {
  * @param data：元数据
  */
 var logic = require('./lib/logic')
-function initIssues(data){
-    return logic(data)
+function initIssues(data,config){
+    return logic(data,config)
 }

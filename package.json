@@ -1,5 +1,5 @@
 {
-  "name": "hexo-generator-gitment",
+  "name": "hexo-generator-issues",
   "version": "1.0.0",
   "description": "a hexo generator plugin for gitment",
   "scripts": {
@@ -7,7 +7,7 @@
   },
   "keywords": [
     "Hexo",
-    "generator�",
+    "generator",
     "plugin"
   ],
   "author": "PayneQin",
