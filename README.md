@@ -1,2 +1,2 @@
-# hexo-generator-gitment
-a hexo generator plugin for gitment
+# hexo-generator-issues
+a hexo plugin to generate issues automaticly for Gitalk & Gitment
